@@ -1,0 +1,22 @@
+.h2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(24px + (55 - 24) * ((100vw - 375px) / (1600 - 375)));
+    line-height: calc(40px + (55 - 40) * ((100vw - 375px) / (1600 - 375)));
+    letter-spacing: 1pt;
+    color: var(--white);
+}
+.regtxt {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(12px + (16 - 12) * ((100vw - 375px) / (1600 - 375)));
+    line-height: calc(20px + (30 - 20) * ((100vw - 375px) / (1600 - 375)));
+    color: var(--white);
+}
+@media screen and (max-width: 600px) {
+    .regtxt {
+        font-weight: 500;
+    }
+}

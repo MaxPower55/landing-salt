@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Proxima Nova"; 
+    src: url("../font/proximanova_regular.ttf") format("truetype"),
+         url("../font/proximanova_bold.otf") format("opentype"),
+         url("../font/proximanova_black.otf") format("opentype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
