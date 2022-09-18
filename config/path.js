@@ -14,7 +14,6 @@ module.exports = {
         src:[
             pathSrc + "/css/normalize.css", 
             pathSrc + "/css/fonts.css", 
-            pathSrc + "/css/texts.css",
             pathSrc + "/css/controls.css",
             pathSrc + "/css/main.css", 
         ],
